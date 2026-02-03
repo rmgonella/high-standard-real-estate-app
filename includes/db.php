@@ -16,9 +16,9 @@ if ($is_localhost) {
 } else {
     // Valores do sistema original mantidos para compatibilidade em produção
     define('DB_HOST', 'localhost');
-    define('DB_NAME', 'u591057133_amaral');
-    define('DB_USER', 'u591057133_amaral');
-    define('DB_PASS', '9HT23H3&e');
+    define('DB_NAME', 'nome_do_banco');
+    define('DB_USER', 'nome_do_usuario');
+    define('DB_PASS', 'senha');
 }
 
 define('DB_CHARSET', 'utf8mb4');
